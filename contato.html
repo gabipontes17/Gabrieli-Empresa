@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Cosméticos of Beauty</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .horario table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .horario th, .horario td {
+            padding: 8px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+
+        .horario th {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+
+<header class="cabecalho-com-banner">
+    <div class="banner">
+        <img src="banner.jpg" alt="Banner Cosméticos of Beauty">
+        <h1>Cosméticos of Beauty</h1>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="formulario">
+        <h2>Entre em Contato Conosco</h2>
+        <form id="contatoForm">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone">
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <button type="submit" id="enviarBtn">Enviar</button>
+        </form>
+    </section>
+
+    <section class="horario">
+        <h2>Horário de Funcionamento</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Dia da Semana</th>
+              <th>Horário de Funcionamento</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Todos os Dias</td>
+              <td>Aberto 24 horas</td>
+            </tr>
+          </tbody>
+        </table>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Cosméticos of Beauty. Todos os direitos reservados.</p>
+</footer>
+    </body>
+
+    </html>
